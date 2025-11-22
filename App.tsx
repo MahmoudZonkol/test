@@ -16,7 +16,7 @@ const App: React.FC = () => {
                 C
               </div>
               <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
-              Caesar<span className="text-slate-200"> AES</span>
+              Caesar <span className="text-slate-200 font-semibold">&amp;</span> <span className="text-slate-200 font-semibold">AES</span>
               </h1>
             </div>
             
