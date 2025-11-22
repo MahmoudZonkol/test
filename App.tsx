@@ -71,7 +71,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="border-t border-slate-800 mt-12 py-8 text-center text-slate-500 text-sm">
-        <p>powerded by Mahmoud Zonkol</p>
+      <p className="text-sm text-slate-400">Powered by Mahmoud Zonkol</p>
       </footer>
       
       <style>{`
