@@ -16,7 +16,7 @@ const App: React.FC = () => {
                 C
               </div>
               <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
-              Caesar <span className="text-slate-200 font-semibold">&amp;</span> <span className="text-slate-200 font-semibold">AES</span>
+              Caesar <span className="text-slate-200 font-light tracking-wide">&amp;</span> <span className="text-slate-200">AES</span>
               </h1>
             </div>
             
@@ -71,7 +71,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="border-t border-slate-800 mt-12 py-8 text-center text-slate-500 text-sm">
-        <p>Built for Cryptography Education</p>
+        <p>powerded by Mahmoud Zonkol</p>
       </footer>
       
       <style>{`
