@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CaesarCipher from './components/CaesarCipher';
 import AesHelper from './components/AesHelper';
+import { Bolt } from "lucide-react";
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'caesar' | 'aes'>('caesar');
@@ -71,8 +72,10 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="border-t border-slate-800 mt-12 py-8 text-center text-slate-500 text-sm">
-      <p className="text-sm text-slate-400">Powered by Mahmoud Zonkol</p>
-      </footer>
+      <p className="text-sm text-slate-500 flex items-center gap-2">
+  <Bolt className="w-4 h-4 text-slate-300" />
+  <span>Powered by <span className="text-slate-300">Mahmoud Zonkol</span></span>
+</p>      </footer>
       
       <style>{`
         @keyframes fadeIn {
