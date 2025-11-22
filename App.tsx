@@ -16,7 +16,7 @@ const App: React.FC = () => {
                 C
               </div>
               <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
-                Crypto<span className="text-slate-200">Edu</span>
+              Caesar<span className="text-slate-200"> AES</span>
               </h1>
             </div>
             
