@@ -1,0 +1,5 @@
+{
+  "name": "Crypto Edu Tool",
+  "description": "A GUI wrapper for Caesar Cipher and Educational AES Helper scripts.",
+  "requestFramePermissions": []
+}
